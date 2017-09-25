@@ -1,0 +1,30 @@
+sw_volume: 100
+audio_device_state:1:pulse audio
+audio_device_state:1:my_fifo
+state: stop
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Kavinsky - OutRun (2013) [FLAC]/01 - Prelude.flac
+1:Kavinsky - OutRun (2013) [FLAC]/02 - Blizzard.flac
+2:Kavinsky - OutRun (2013) [FLAC]/04 - Odd Look.flac
+3:Kavinsky - OutRun (2013) [FLAC]/08 - Nightcall.flac
+4:Kavinsky - OutRun (2013) [FLAC]/07 - Testarossa Autodrive.flac
+5:Kavinsky - OutRun (2013) [FLAC]/09 - Deadcruiser.flac
+6:Mome - Panorama - 2016 (320 kbps)/01. Delta.mp3
+7:Mome - Panorama - 2016 (320 kbps)/02. Why Is It (Feat. Merryn Jeann).mp3
+8:Mome - Panorama - 2016 (320 kbps)/03. Super Hot Days.mp3
+9:Mome - Panorama - 2016 (320 kbps)/04. Wagga.mp3
+10:Mome - Panorama - 2016 (320 kbps)/05. Hold On (Feat. Dylan Wright).mp3
+11:Mome - Panorama - 2016 (320 kbps)/06. Mirage.mp3
+12:Mome - Panorama - 2016 (320 kbps)/07. Routine (Feat. Nieve).mp3
+13:Mome - Panorama - 2016 (320 kbps)/08. Aloha (Feat. Merryn Jeann).mp3
+14:Mome - Panorama - 2016 (320 kbps)/09. Alive (Mome Vs Midnight To Monaco).mp3
+15:Mome - Panorama - 2016 (320 kbps)/10. Altitude.mp3
+16:Mome - Panorama - 2016 (320 kbps)/11. Playground.mp3
+playlist_end

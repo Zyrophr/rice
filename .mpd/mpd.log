@@ -1,0 +1,45 @@
+Sep 19 18:31 : avahi: Failed to add service _mpd._tcp: Local name collision
+Sep 19 18:31 : exception: Failed to open /home/zyrophr/.mpd/mpdstate: No such file or directory
+Sep 19 18:31 : update: added Kavinsky - OutRun (2013) [FLAC]/02 - Blizzard.flac
+Sep 19 18:31 : update: added Kavinsky - OutRun (2013) [FLAC]/10 - Grand Canyon.flac
+Sep 19 18:31 : update: added Kavinsky - OutRun (2013) [FLAC]/01 - Prelude.flac
+Sep 19 18:31 : update: added Kavinsky - OutRun (2013) [FLAC]/06 - Suburbia.flac
+Sep 19 18:31 : update: added Kavinsky - OutRun (2013) [FLAC]/09 - Deadcruiser.flac
+Sep 19 18:31 : update: added Kavinsky - OutRun (2013) [FLAC]/03 - ProtoVision.flac
+Sep 19 18:31 : update: added Kavinsky - OutRun (2013) [FLAC]/12 - Roadgame.flac
+Sep 19 18:31 : update: added Kavinsky - OutRun (2013) [FLAC]/08 - Nightcall.flac
+Sep 19 18:31 : update: added Kavinsky - OutRun (2013) [FLAC]/07 - Testarossa Autodrive.flac
+Sep 19 18:31 : update: added Kavinsky - OutRun (2013) [FLAC]/11 - First Blood.flac
+Sep 19 18:31 : update: added Kavinsky - OutRun (2013) [FLAC]/04 - Odd Look.flac
+Sep 19 18:31 : update: added Kavinsky - OutRun (2013) [FLAC]/13 - Endless.flac
+Sep 19 18:31 : update: added Kavinsky - OutRun (2013) [FLAC]/05 - Rampage.flac
+Sep 19 18:31 : update: added Mome - Panorama - 2016 (320 kbps)/11. Playground.mp3
+Sep 19 18:31 : update: added Mome - Panorama - 2016 (320 kbps)/04. Wagga.mp3
+Sep 19 18:31 : update: added Mome - Panorama - 2016 (320 kbps)/13. Panorama.mp3
+Sep 19 18:31 : update: added Mome - Panorama - 2016 (320 kbps)/02. Why Is It (Feat. Merryn Jeann).mp3
+Sep 19 18:31 : update: added Mome - Panorama - 2016 (320 kbps)/09. Alive (Mome Vs Midnight To Monaco).mp3
+Sep 19 18:31 : update: added Mome - Panorama - 2016 (320 kbps)/07. Routine (Feat. Nieve).mp3
+Sep 19 18:31 : update: added Mome - Panorama - 2016 (320 kbps)/10. Altitude.mp3
+Sep 19 18:31 : update: added Mome - Panorama - 2016 (320 kbps)/08. Aloha (Feat. Merryn Jeann).mp3
+Sep 19 18:31 : update: added Mome - Panorama - 2016 (320 kbps)/12. Medicine (Feat. Gus Dingwall).mp3
+Sep 19 18:31 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 19 18:31 : update: added Mome - Panorama - 2016 (320 kbps)/05. Hold On (Feat. Dylan Wright).mp3
+Sep 19 18:31 : update: added Mome - Panorama - 2016 (320 kbps)/06. Mirage.mp3
+Sep 19 18:31 : update: added Mome - Panorama - 2016 (320 kbps)/01. Delta.mp3
+Sep 19 18:31 : update: added Mome - Panorama - 2016 (320 kbps)/03. Super Hot Days.mp3
+Sep 19 18:33 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 19 18:33 : avahi: Service 'Music Player' successfully established.
+Sep 19 18:33 : client: [0] opened from 127.0.0.1:44714
+Sep 19 18:35 : exception: OutputThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Sep 19 18:37 : player: played "Kavinsky - OutRun (2013) [FLAC]/01 - Prelude.flac"
+Sep 19 18:42 : player: played "Kavinsky - OutRun (2013) [FLAC]/04 - Odd Look.flac"
+Sep 19 18:46 : player: played "Kavinsky - OutRun (2013) [FLAC]/08 - Nightcall.flac"
+Sep 19 18:52 : player: played "Mome - Panorama - 2016 (320 kbps)/01. Delta.mp3"
+Sep 19 18:55 : player: played "Mome - Panorama - 2016 (320 kbps)/02. Why Is It (Feat. Merryn Jeann).mp3"
+Sep 19 18:59 : player: played "Mome - Panorama - 2016 (320 kbps)/03. Super Hot Days.mp3"
+Sep 19 19:06 : player: played "Mome - Panorama - 2016 (320 kbps)/04. Wagga.mp3"
+Sep 19 19:11 : player: played "Mome - Panorama - 2016 (320 kbps)/06. Mirage.mp3"
+Sep 19 19:16 : player: played "Mome - Panorama - 2016 (320 kbps)/08. Aloha (Feat. Merryn Jeann).mp3"
+Sep 19 19:21 : player: played "Mome - Panorama - 2016 (320 kbps)/09. Alive (Mome Vs Midnight To Monaco).mp3"
+Sep 19 19:26 : client: [0] closed
+Sep 19 19:26 : player: played "Mome - Panorama - 2016 (320 kbps)/11. Playground.mp3"
