@@ -39,6 +39,7 @@ This repo might contains some of their config file (but not in most case)
 - cowsay, fortune, lolcat, cava, cmatrix, sl (fun)
 - xpp (needed on Fedora)
 - lightdm with Pantheon greeter
+- compton (only used for transparancy atm)
 
 I had to search a bit more when I switched to Fedora, because it was way easier on Manjaro haha, but you shouldn't have to many issues.
 
