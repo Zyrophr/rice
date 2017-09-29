@@ -1,1 +1,1 @@
-cowfortune
+fortune -s | cowsay -f tux 

@@ -16,7 +16,7 @@ bindsym $mod+Return exec i3-sensible-terminal
 bindsym $mod+Shift+q kill
 
 # lock computer
-bindsym $mod+Shift+x exec i3lock-fancy
+bindsym $mod+Shift+x exec i3lock -B=sigma
 
 # Open dmenu 
 #bindsym $mod+d exec dmenu_run -fn 'Overpass Mono:pixelsize=15' -l 3 -nf '#707880' -sf '#cc6666' -nb '#1d1f21' -sb '#1d1f21'
@@ -209,11 +209,11 @@ bindsym XF86AudioNext exec playerctl next
 bindsym XF86AudioPrev exec playerctl previou
 
 # brightness controls
-bindsym XF86MonBrightnessUp exec xbacklight -inc 5
-bindsym XF86MonBrightnessDown exec xbacklight -dec 5
+bindsym XF86MonBrightnessUp exec light -A 10
+bindsym XF86MonBrightnessDown exec light -U 10
 
 # Screenshot controls 
 bindsym Print exec scrot
 
 # Start at launch
-#exec_always compton
+exec_always compton

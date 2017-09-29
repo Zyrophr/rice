@@ -2,7 +2,7 @@
 
 font-0 = "Overpass Mono:pixelsize=10;2.25"
 
-monitor = "eDP1"
+monitor = "eDP-1"
 
 scroll-up = i3wm-wsnext
 scroll-down = i3wm-wsprev
@@ -12,8 +12,9 @@ fixed-center = true
 width = 100%
 height = 30
 
-background = #1d1f21
-foreground = #707880
+background = #991d1f21
+#foreground = #707880
+foreground = #ffffff
 
 radius = 0.0
 
@@ -26,9 +27,9 @@ padding-left = 1
 padding-right = 1
 module-margin = 1
 
-modules-left = i3 volume
-modules-center = xbacklight date
-modules-right = wireless-network battery battery2
+modules-left = i3 xwindow volume
+modules-center = backlight date
+modules-right = cpu temp memory wlan battery battery2
 
 [module/i3]
 strip-wsnumbers = true
@@ -57,6 +58,7 @@ label-urgent-padding = 1
 type = internal/date
 interval = 1.0
 date = %A, %d %B %H:%M
+format-foreground = #ffffff
 
 # [module/github]
 # type = internal/github
@@ -76,6 +78,8 @@ type = internal/xwindow
 format-foreground = #f0c674
 format-padding = 1
 label-maxlen = 50
+#format-foreground = #ffffff
+
 
 [module/battery]
 type = internal/battery
@@ -85,6 +89,7 @@ type = internal/battery
 #$ ls -1 /sys/class/power_supply/
 battery = BAT0
 adapter = AC
+format-foreground = #ffffff
 
 [module/battery2]
 type = internal/battery
@@ -94,10 +99,11 @@ type = internal/battery
 #$ ls -1 /sys/class/power_supply/
 battery = BAT1
 adapter = AC
+format-foreground = #ffffff
 
 [module/volume]
 type = internal/volume
-
+format-foreground = #ffffff
 format-volume = <label-volume> <bar-volume>
 label-volume = ""
 label-volume-foreground = ${root.foreground}
@@ -121,9 +127,11 @@ bar-volume-empty = ─
 bar-volume-empty-font = 2
 bar-volume-empty-foreground =
 
-[module/wireless-network]
+[module/wlan]
 type = internal/network
 interface = wlp58s0
+interval = 5
+format-foreground = #ffffff
 
 format-connected = <label-connected>
 format-disconnected = <label-disconnected>
@@ -131,12 +139,43 @@ format-packetloss = <animation-packetloss> <label-connected>
 
 label-connected = %essid% %downspeed:9%
 label-connected-foreground = #eefafafa
-;label-connected-padding = 10
+#label-connected-padding = 10
 
 label-disconnected = not connected
 label-disconnected-foreground = #66ffffff
 
-[module/xbacklight]
-type = internal/xbacklight
-#output = HDMI-1
+[module/backlight]
+type = internal/backlight
+output = HDMI-1
 enable-scroll = false
+format-foreground = #ffffff
+card = intel_backlight
+
+[module/xwindow]
+type = internal/xwindow
+label = %title:0:60:...%
+
+[module/cpu]
+type = internal/cpu
+interval = 5
+format-prefix = "CPU "
+#format-prefix-foreground = ${colors.fg-alt}
+#format-underline = ${colors.red}
+
+[module/memory]
+type = internal/memory
+interval = 5
+format-prefix = "MEM "
+#format-prefix-foreground = ${colors.fg-alt}
+#format-underline = ${colors.blue}
+
+[module/temp]
+type = internal/temperature
+thermal-zone = 0
+warn-temperature = 60
+
+#format-underline = ${colors.orange}
+#format-warn-underline = ${colors.red}
+
+label-warn = %temperature%!!!
+

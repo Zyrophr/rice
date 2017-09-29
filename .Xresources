@@ -1,4 +1,4 @@
-*.font: xft:Overpass Mono:size=10
+#*.font: xft:Overpass Mono:size=10
 
 Xft.dpi:                        96
 Xft.antialias:                  1
@@ -19,5 +19,8 @@ URxvt.scrollBar:                false
 URxvt*loginShell:               true
 URxvt.internalBorder:           25
 URxvt.perl-ext:	 		default,matcher
-URxvt.url-launcher:             firefox
+URxvt.url-launcher:             google-chrome
 URxvt.matcher.button: 		1
+#URxvt.font: 			xft:DejaVu Sans Mono:size=10
+URxvt.font:			xft:Hack:size=9
+#URxvt.boldFont: 		xft:lucy tewii Bold:size=16
