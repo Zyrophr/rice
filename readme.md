@@ -31,7 +31,7 @@ This repo might contains some of their config file (but not in most case)
 - ranger (main file explorer)
 - ncmpcpp + mpd (main music player)
 - i3-gaps + i3lock-color
-- python-pywal + feh + imagemagick + python-pip
+- python-pywal + feh + imagemagick + python-pip (rice script)
 - rxvt-unicode (main terminal)
 - polybar 
 - light (brightness control, which is, actually, working strangly...)
