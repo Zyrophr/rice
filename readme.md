@@ -2,7 +2,7 @@
 This repo contains all my dotfiles, used to build my different rices. i didn't do everything, I just used some part of other dotfiles from /r/unixporn, so feel free to steal <3
 
 ## My setup
-![rice](https://i.imgur.com/bdDklhQ.png)
+![rice](https://i.imgur.com/Up3v26s.png)
 (this is just a sample of what type of rice you can make with those files. If you want to see more examples, just slide to the bottom of this readme !)
 
 - Wm : i3-gaps
@@ -17,6 +17,7 @@ This repo contains all my dotfiles, used to build my different rices. i didn't d
 - system info : neofetch
 
 Everything you need is here, even all of my Wallpapers, but you still will have to install the packages.
+But be carful, some of them are NSFW haha ;3
 
 ## My packages
 Here are the packages I installed on my computer.
@@ -40,6 +41,8 @@ This repo might contains some of their config file (but not in most case)
 - xpp (needed on Fedora)
 - lightdm with Pantheon greeter
 - compton (only used for transparancy atm)
+- w3m
+- weechat 
 
 I had to search a bit more when I switched to Fedora, because it was way easier on Manjaro haha, but you shouldn't have to many issues.
 
@@ -59,6 +62,6 @@ This is a WIP, I need to make a tutorial on how my setup works, and maybe how to
 
 ![example](https://i.imgur.com/7lCWtr2.png)
 
-![example](https://i.imgur.com/iPZhW78.jpg)
+![example](https://i.imgur.com/bdDklhQ.png)
 
 
