@@ -10,7 +10,9 @@ fi
 
 # User specific aliases and functions
 PATH="${PATH}:${HOME}/.local/bin/"
-export PATH=$PATH:/home/william_b/repos/DiscordCanary/
-#export CONFIG_PATH=/home/william_b/repos/DiscordCanary/
+
+#Only needed for Fedora, to add Discord as an appQ
+export PATH=$PATH:/home/user/repos/DiscordCanary/
+#export CONFIG_PATH=/home/user/repos/DiscordCanary/
 
 fish
