@@ -24,3 +24,15 @@ URxvt.matcher.button: 		1
 #URxvt.font: 			xft:DejaVu Sans Mono:size=10
 URxvt.font:			xft:Hack:size=9
 #URxvt.boldFont: 		xft:lucy tewii Bold:size=16
+
+rofi.modi: drun,run,ssh,window
+rofi.fullscreen: true
+rofi.lines: 3
+rofi.terminal: urxvt
+rofi.padding: 400
+#rofi.fake-transparency: true
+#rofi.eh: 2
+rofi.opacity: 80
+
+#rofi.color-window: argb: EE000000, argb: EE000000, argb: EE000000
+#rofi.color-normal: argb: 00000000, #DEDEDE, argb: 00000000, #DEDEDE
