@@ -65,6 +65,6 @@ This is a WIP, I need to make a tutorial on how my setup works, and maybe how to
 
 ![example](https://i.imgur.com/7lCWtr2.png)
 
-![example](https://i.imgur.com/bdDklhQ.png)
+![example](https://i.imgur.com/yGtks9k.png)
 
 
