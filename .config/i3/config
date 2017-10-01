@@ -20,7 +20,7 @@ bindsym $mod+Shift+x exec i3lock --insidecolor=991d1f21 --ringcolor=0042a4f4 -k 
 
 # Open dmenu 
 #bindsym $mod+d exec dmenu_run -fn 'Overpass Mono:pixelsize=15' -l 3 -nf '#707880' -sf '#cc6666' -nb '#1d1f21' -sb '#1d1f21'
-bindsym $mod+d exec rofi -show run
+bindsym $mod+d exec rofi -show drun -opacity 80
 
 # Change focus
 bindsym $mod+j focus left
@@ -169,7 +169,7 @@ hide_edge_borders vertical
 # Color variables
 set $unfocused_border #1D1F21
 #set $focused_border #CC6666
-set $focused_border #FF00FF
+set $focused_border #ef7070
 
 # class                 border  backgr. text    indicator child_border
 client.focused          #ffffff #ffffff #ffffff #ffffff   $focused_border
@@ -218,3 +218,4 @@ bindsym Print exec scrot
 
 # Start at launch
 exec_always compton
+exec urxvt
